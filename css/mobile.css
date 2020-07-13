@@ -1,0 +1,22 @@
+.big-screen__text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: #fce006;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #fff;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 1.5;
+    display: none;
+}
+@media screen and (min-width: 550px) {
+    .big-screen__text {
+        display: block;
+    }
+}
